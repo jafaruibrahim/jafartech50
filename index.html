@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BBC News - Sample</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f2f2f2;
+    }
+    header {
+      background: #bb1919;
+      color: white;
+      padding: 15px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    nav {
+      background: #a91717;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      padding: 20px;
+    }
+    .main-news {
+      flex: 3;
+      margin-right: 20px;
+    }
+    .main-news h2 {
+      color: #bb1919;
+    }
+    .sidebar {
+      flex: 1;
+      background: #fff;
+      padding: 15px;
+      border: 1px solid #ddd;
+    }
+    article {
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BBC News</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="https://aikingona.simdif.com">World</a>
+    <a href="#">Africa</a>
+    <a href="#">Business</a>
+    <a href="#">Tech</a>
+  </nav>
+
+  <div class="container">
+    <div class="main-news">
+      <article>
+        <h2>Main Headline</h2>
+        <p>This is the main story summary, styled like BBC.</p>
+      </article>
+
+      <article>
+        <h2>Another News</h2>
+        <p>Here is another story with details.</p>
+      </article>
+    </div>
+
+    <aside class="sidebar">
+      <h3>Latest Updates</h3>
+      <ul>
+        <li><a href="#">Breaking: Major update</a></li>
+        <li><a href="#">Sports: Big win today</a></li>
+        <li><a href="#">Weather: Storm coming</a></li>
+      </ul>
+    </aside>
+  </div>
+</body>
+</html>
